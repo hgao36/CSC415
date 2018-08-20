@@ -1,0 +1,61 @@
+
+
+initialize buffer as pointer for the first address of the array // int* buffer;
+initialize check as pointer for the first address of the array // int* check;
+
+take input from user
+allocate memory for buffer array and check array based on bufSize that entered from user
+
+inititlize semaphore empty and full
+
+void producer(void* id){
+	
+	loop when i less than itemPerProducer{
+
+		wait(empty); //semaphore is to ensure that threads are not going to write more than its buffer size
+					 //decrement empty
+		wait(mutex); //mutex is to ensure that each thread going to operate once at a time.
+		produce an item in next_produced
+		add next produced to the buffer (enqueue)
+		print out which producer produced number
+		increment index;
+
+		signal(mutex); //unlock
+		signal(full);  //after put into buffer array, full increment one		
+		sleep(Ptime)
+
+	}
+}
+
+void consumer(void* id){
+	
+	loop when i less than itemPerConsumer{
+
+		wait(full); //decrement full
+		wait(mutex);
+	
+		consume an item (dequeue)
+		print out which consumer consumed 
+		put the dequeued item into check array
+
+		signal(mutex);
+		signal(empty); //increment empty
+
+		sleep for Ctime;
+	}
+}
+
+isVaild{
+
+	sort check
+
+	if totalProduced not equal to totalConsumed 
+	then set flag to false
+	else
+		for loop 
+			check items in the array check match the item produced or not
+			if one is not the same
+				set flag = false;
+
+	return flag;
+}

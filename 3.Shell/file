@@ -1,0 +1,20 @@
+total 1112
+-rw-r--r--@ 1 Arnold  staff  521904 Oct  7 17:34 415_HW3.pdf
+-rw-r--r--  1 Arnold  staff     152 Oct  2 19:31 CMakeLists.txt
+-rw-r--r--  1 Arnold  staff    1072 Oct  2 19:31 LICENSE
+-rw-r--r--  1 Arnold  staff      74 Oct  2 19:31 Makefile
+-rw-r--r--  1 Arnold  staff      11 Oct  2 19:31 README.md
+-rwxr-xr-x  1 Arnold  staff   13368 Oct 12 21:27 a.out
+-rw-------  1 Arnold  staff       0 Oct 12 21:28 file
+-rw-r--r--  1 Arnold  staff    5094 Oct 12 21:27 myshell.c
+-rw-r--r--  1 Arnold  staff     173 Oct  2 19:31 readme.txt
+total 1120
+-rw-r--r--@ 1 Arnold  staff  521904 Oct  7 17:34 415_HW3.pdf
+-rw-r--r--  1 Arnold  staff     152 Oct  2 19:31 CMakeLists.txt
+-rw-r--r--  1 Arnold  staff    1072 Oct  2 19:31 LICENSE
+-rw-r--r--  1 Arnold  staff      74 Oct  2 19:31 Makefile
+-rw-r--r--  1 Arnold  staff      11 Oct  2 19:31 README.md
+-rwxr-xr-x  1 Arnold  staff   13368 Oct 12 21:27 a.out
+-rw-------  1 Arnold  staff     538 Oct 12 21:28 file
+-rw-r--r--  1 Arnold  staff    5094 Oct 12 21:27 myshell.c
+-rw-r--r--  1 Arnold  staff     173 Oct  2 19:31 readme.txt
